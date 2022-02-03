@@ -142,7 +142,7 @@ As seen above, the Multi-Stack field(which is our extension) contains the follow
 
 The **Entries** section has the following structure:
 
-![Entries Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt7683cf8912d27514/61fbde8dbd7acb345ace7048/image6.gif)
+![Entries Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt7683cf8912d27514/61fbe036bd7acb345ace704c/image_6.gif)
 
 As seen above, the Entries section contains the following fields in the order of their selection:
 
