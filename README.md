@@ -142,7 +142,7 @@ As seen above, the Multi-Stack field(which is our extension) contains the follow
 
 The **Entries** section has the following structure:
 
-![Entries Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt7683cf8912d27514/61fbbec817f4c326db2fd55f/image6.gif)
+![Entries Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt7683cf8912d27514/61fbde8dbd7acb345ace7048/image6.gif)
 
 As seen above, the Entries section contains the following fields in the order of their selection:
 
@@ -158,7 +158,7 @@ As seen above, the Entries section contains the following fields in the order of
 
 The **Assets** section has the following structure:
 
-![Assets Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt01f01ba9c97de5aa/61fbbec813bbb628521ffece/image7.gif)
+![Assets Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt01f01ba9c97de5aa/61fbdebfe0b919284700dbb4/image7.gif)
 
 As seen above, the Assets section contains the following fields in the order of their selection:
 
