@@ -35,8 +35,9 @@ To set up the extension, [log in](https://www.contentstack.com/login/) to your C
 
 3. In the **Select Extension Type** window, select **Custom Field**.
 
-4. On the **Create New Extension** page, enter values in the fields as given below:
+![Extension Type](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltf890ff669decc2b3/61fbbeb8ce30533458034fd8/image8.png)
 
+4. On the **Create New Extension** page, enter values in the fields as given below:
 
   a) **Title** (required): Provide a suitable title, for example **Multi Stack Communication** , for your custom field. This title will be visible when you select the extension in the custom field in your content type.
 
@@ -125,9 +126,13 @@ To understand the code structure, please visit [here](#_z2hf6efwjs3a).
 
 To integrate Multi Stack Communication extension with Contentstack, we have created a content type named **Multi-Communication Extension** that has the following structure (Please note that the following content type is created for demo purpose only. You can add this extension to any existing content types or create your own new one) :
 
+![Extension Usage](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt7e0e1d104556a0a6/61fbbeb7ce30533458034fd4/image2.png)
+
 As you can see above, its content type consists of [Title field](https://www.contentstack.com/docs/developers/create-content-types/title) and [Custom field](https://www.contentstack.com/docs/developers/create-content-types/custom/) which is used to add the extension that we created.
 
 The entry of this Multi-Communication Extension is shown below:
+
+![Entries And Assets](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt6a641d69d53a5d15/61fbbec613bbb628521ffeca/image5.gif)
 
 As seen above, the Multi-Stack field(which is our extension) contains the following fields:
 
@@ -136,6 +141,8 @@ As seen above, the Multi-Stack field(which is our extension) contains the follow
 2. **Assets** - This section is used to create multiple assets that will fetch required assets from multiple stacks.
 
 The **Entries** section has the following structure:
+
+![Entries](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt7683cf8912d27514/61fbbec817f4c326db2fd55f/image6.gif)
 
 As seen above, the Entries section contains the following fields in the order of their selection:
 
@@ -151,6 +158,8 @@ As seen above, the Entries section contains the following fields in the order of
 
 The **Assets** section has the following structure:
 
+![Assets](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt01f01ba9c97de5aa/61fbbec813bbb628521ffece/image7.gif)
+
 As seen above, the Assets section contains the following fields in the order of their selection:
 
 1. **Select Stack** - This field shows a list of stacks that we configured before in the **Config Parameter** section in the extension. In this case, we selected **Stack B**.
@@ -163,6 +172,8 @@ As seen above, the Assets section contains the following fields in the order of 
 
 Other features of this extension are as follows:
 
+![Other Features](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltdf8052a0bccb66b0/61fbc612a7cc8435c175f5a1/image_10.png)
+
 1. We can create more than one entry and asset.
 
 2. For the fields that contain multiple selection, you can search for the data.
@@ -173,11 +184,17 @@ Once you have added required entries and assets, click on **Save**. To check if 
 
 **Entries structure** :
 
+![Entries JSON](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltae189378aadcc082/61fbbeb9a7cc8435c175f599/image9.png)
+
 **Assets structure** :
+
+![Assets JSON](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltc37d1d0e2ef0cb49/61fbbeb7a7cc8435c175f595/image3.png)
 
 This JSON object contains the data that we captured for entries/assets.
 
 ## 4. Understanding the code structure for the extension
+
+![Understanding the code structure](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt27e0574bd259c26f/61fbbeb62f1ba82848b68a82/image4.png)
 
 - The entry point for the extension is the &#39;App.js&#39; file. It initializes the extension and passes the data to the required components for &#39;Entries&#39; and &#39;Assets&#39;. The extension makes use of Venus components and extension sdk.
 
