@@ -158,7 +158,7 @@ As seen above, the Entries section contains the following fields in the order of
 
 The **Assets** section has the following structure:
 
-![Assets Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt01f01ba9c97de5aa/61fbdebfe0b919284700dbb4/image7.gif)
+![Assets Section](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt01f01ba9c97de5aa/61fbe11ece30533458034ff2/image_7.gif)
 
 As seen above, the Assets section contains the following fields in the order of their selection:
 
