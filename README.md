@@ -31,7 +31,7 @@ To set up the extension, [log in](https://www.contentstack.com/login/) to your C
 
 2. On the **Extensions** page, click on the **+ Add Extension** button and then on **Create new**. Alternatively, you can click on the **+ Add Extension** button at the bottom, as shown below:
 
-![alt text for screen readers]("https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt99f41a352766c2b3/61fbbeb72f5ed026e153c91a/image1.png)
+![New Extension](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt99f41a352766c2b3/61fbbeb72f5ed026e153c91a/image1.png)
 
 3. In the **Select Extension Type** window, select **Custom Field**.
 
