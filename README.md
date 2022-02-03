@@ -172,7 +172,7 @@ As seen above, the Assets section contains the following fields in the order of 
 
 Other features of this extension are as follows:
 
-![Other Features](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltdf8052a0bccb66b0/61fbc612a7cc8435c175f5a1/image_10.png)
+![Other Features](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/blt3261db32cd551b27/61fbce5f8624ed26d399d3cc/image_10.png)
 
 1. We can create more than one entry and asset.
 
