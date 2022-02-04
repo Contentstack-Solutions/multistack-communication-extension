@@ -1,4 +1,3 @@
-# multistack-communication-extension
 # Build Multi Stack Communication Extension in Contentstack using React JS
 
 React.js is a JavaScript library for dynamic websites with rich user interfaces.
