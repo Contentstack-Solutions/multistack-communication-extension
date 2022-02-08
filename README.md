@@ -107,7 +107,7 @@ The config is an object which stores multiple Stack information which is used fo
 
 To set up the React code for the extension, proceed with the following steps:
 
-1. Clone the code from our [Github](https://github.com/Contentstack-Solutions/multistack-communication-extension) repository.
+1. Clone the code from our repository.
 
 2. Open the code in any appropriate code editor application.
 
@@ -119,7 +119,7 @@ To set up the React code for the extension, proceed with the following steps:
 5. In your web-browser enter the following address:
 [**http://localhost:3000/**](http://localhost:3000/)
 
-To understand the code structure, please visit [here](https://github.com/Contentstack-Solutions/multistack-communication-extension#4-understanding-the-code-structure-for-the-extension).
+To understand the code structure, please visit [here](#4-understanding-the-code-structure-for-the-extension).
 
 ## 3. Using the extension in content type entry
 
