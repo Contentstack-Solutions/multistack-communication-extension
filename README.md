@@ -187,7 +187,7 @@ Once you have added required entries and assets, click on **Save**. To check if 
 
 **Assets structure** :
 
-![Assets JSON](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltc37d1d0e2ef0cb49/620269391586404a56476d39/asset_json.png)
+![Assets JSON](https://images.contentstack.io/v3/assets/blt1c11a1ad74628afa/bltae189378aadcc082/620375b89149cc493bb9b85d/entry_json.png)
 
 This JSON object contains the data that we captured for entries/assets.
 
