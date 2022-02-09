@@ -146,10 +146,10 @@ const AsstesSelector = ({
       setStackType([
         {
           api_key: asstesData.api_key,
-          management_token: asstesData.management_token,
+          management_token: stack[asstesData.stack_name][0].management_token,
           environment: asstesData.environment,
           baseUrl: asstesData.baseUrl,
-          access_token: asstesData.access_token,
+          access_token: stack[asstesData.stack_name][0].access_token,
           assetsType: asstesData.assetsType,
         },
       ]);
@@ -294,7 +294,7 @@ const AsstesSelector = ({
         })
       );
     }
-  }, [asstesData]);
+  }, [asstesData, stack]);
 
   const loadMoreFolderType = async ({ search, skip, limit }) => {
     let data = await getAssetsFolder({
@@ -480,10 +480,10 @@ const AsstesSelector = ({
     if (data) {
       let finalStack = {
         stack_name: selectedStack.value,
-        access_token: stack[selectedStack.value][0].access_token,
+        // access_token: stack[selectedStack.value][0].access_token,
         api_key: stack[selectedStack.value][0].api_key,
         environment: stack[selectedStack.value][0].environment,
-        management_token: stack[selectedStack.value][0].management_token,
+        // management_token: stack[selectedStack.value][0].management_token,
         baseUrl: stack[selectedStack.value][0].baseUrl,
         assetsType: stack[selectedStack.value][0].assetsType,
         folder: selectedFolder?.map((v) => {

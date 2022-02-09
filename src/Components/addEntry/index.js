@@ -165,9 +165,9 @@ function Selector({
       setStackType([
         {
           api_key: entryData.api_key,
-          management_token: entryData.management_token,
+          management_token: stack[entryData.stack_name][0].management_token,
           baseUrl: entryData.baseUrl,
-          access_token: entryData.access_token,
+          access_token: stack[entryData.stack_name][0].access_token,
         },
       ]);
       setSelectedContentType({
@@ -188,7 +188,7 @@ function Selector({
         })
       );
     }
-  }, [entryData]);
+  }, [entryData, stack]);
 
   const handleSelectedStackType = (data) => {
     setSelectedContentType(null);
@@ -226,9 +226,9 @@ function Selector({
     if (data) {
       let finalStack = {
         stack_name: selectedStack.value,
-        access_token: stack[selectedStack.value][0].access_token,
+        // access_token: stack[selectedStack.value][0].access_token,
         api_key: stack[selectedStack.value][0].api_key,
-        management_token: stack[selectedStack.value][0].management_token,
+        // management_token: stack[selectedStack.value][0].management_token,
         baseUrl: stack[selectedStack.value][0].baseUrl,
         content_types: {
           entries: data.map((item) => {
